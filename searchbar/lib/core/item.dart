@@ -1,4 +1,4 @@
-abstract class GetjobVagasGeral {
+abstract class listItem {
   static const List listId = [
     0,
     1,

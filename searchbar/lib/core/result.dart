@@ -9,7 +9,7 @@ class Result extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String desc = 'Description: ';
-    String descR = GetjobVagasGeral.listDetail[id];
+    String descR = listItem.listDetail[id];
 
     return Scaffold(
         backgroundColor: Colors.white,
@@ -37,7 +37,7 @@ class Result extends StatelessWidget {
                 ),
                 child: Center(
                   child: Text(
-                    GetjobVagasGeral.listTitle[id],
+                    listItem.listTitle[id],
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 18,
@@ -52,7 +52,7 @@ class Result extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(top: 10),
                   child: Text(
-                    GetjobVagasGeral.listCity[id],
+                    listItem.listCity[id],
                     style: TextStyle(
                       color: Colors.cyan,
                       fontSize: 16,
@@ -61,7 +61,7 @@ class Result extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  GetjobVagasGeral.listState[id],
+                  listItem.listState[id],
                   style: TextStyle(
                     color: Colors.cyan,
                     fontSize: 16,
@@ -89,7 +89,7 @@ class Result extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        GetjobVagasGeral.listAtend[id],
+                        listItem.listAtend[id],
                         style: TextStyle(
                           color: Colors.cyan,
                           fontSize: 12,

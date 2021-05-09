@@ -23,14 +23,14 @@ class ListVagas extends SearchDelegate<String> {
   String searchFieldLabel = 'Digite...';
   TextInputAction textInputAction = TextInputAction.none;
   final vagas = [
-    '${GetjobVagasGeral.listTitle[0]} - ${GetjobVagasGeral.listLocal[0]}',
-    '${GetjobVagasGeral.listTitle[1]} - ${GetjobVagasGeral.listLocal[1]}',
-    '${GetjobVagasGeral.listTitle[2]} - ${GetjobVagasGeral.listLocal[2]}',
-    '${GetjobVagasGeral.listTitle[3]} - ${GetjobVagasGeral.listLocal[3]}',
-    '${GetjobVagasGeral.listTitle[4]} - ${GetjobVagasGeral.listLocal[4]}',
-    '${GetjobVagasGeral.listTitle[5]} - ${GetjobVagasGeral.listLocal[5]}',
-    '${GetjobVagasGeral.listTitle[6]} - ${GetjobVagasGeral.listLocal[6]}',
-    '${GetjobVagasGeral.listTitle[7]} - ${GetjobVagasGeral.listLocal[7]}',
+    '${listItem.listTitle[0]} - ${listItem.listLocal[0]}',
+    '${listItem.listTitle[1]} - ${listItem.listLocal[1]}',
+    '${listItem.listTitle[2]} - ${listItem.listLocal[2]}',
+    '${listItem.listTitle[3]} - ${listItem.listLocal[3]}',
+    '${listItem.listTitle[4]} - ${listItem.listLocal[4]}',
+    '${listItem.listTitle[5]} - ${listItem.listLocal[5]}',
+    '${listItem.listTitle[6]} - ${listItem.listLocal[6]}',
+    '${listItem.listTitle[7]} - ${listItem.listLocal[7]}',
   ];
 
   var recentVagas = [""];
